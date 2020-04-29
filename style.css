@@ -28,6 +28,11 @@
       color: #0a71df;
   }
 
+/* Transparent navbar */
+nav.navbar.fixed-top.navbar-expand-lg.navbar-dark {
+    opacity: 0.9;
+}
+
 /* navbar */
 .navbar{
     background-color: #007bff;
