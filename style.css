@@ -105,7 +105,7 @@ nav.navbar.fixed-top.navbar-expand-lg.navbar-dark {
     font-size: 20px;
 }
 .logo{
-    margin-top: -10px;
+    margin-top: -5px;
 }
 .logo img{
     width: 250px;
@@ -237,6 +237,9 @@ h2 {
 	position: relative;
 	margin: 30px 0 60px;
 }
+.testimonial-title{
+    font-size: 16px;
+}
 h2::after {
 	content: "";
 	width: 25%;
@@ -338,6 +341,10 @@ h2::after {
 
 /* Desktop */
 @media (min-width: 992px) {
+    /* testimonial */
+    .testimonial-title{
+        font-size: 32px;
+    }
 
     /* Scroll to top */
     #myBtn {
