@@ -1,380 +1,654 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
     <!-- my CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kanit:wght@200;400&family=Maven+Pro&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kanit:wght@200;400&family=Maven+Pro&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- favicon -->
-    <link rel="shortcut icon" type="image/png" href="img/icon.png"/>
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
 
     <!-- sweet alert 2 -->
-    <link rel="stylesheet" href="sweetalert2.min.css">
+    <link rel="stylesheet" href="sweetalert2.min.css" />
 
     <!-- AOS -->
-    <link rel="stylesheet" href="aos.css">
+    <link rel="stylesheet" href="aos.css" />
 
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
     <title>Wifi Agency</title>
   </head>
   <body>
-<!-- navbar -->
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          >Wifi Agency
+          <span
+            ><img
+              loading="lazy"
+              alt="..."
+              src="img/icon4.png"
+              width="30"
+              height="30"
+              alt="" /></span
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#gallery">Gallery</a>
+            <a class="nav-item nav-link" href="#testimonial">Testimonial</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+            <a
+              class="btn btn-primary tombol tombol-nav"
+              href="#exampleModal"
+              role="button"
+              >Github</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- Scroll to top Button -->
+    <button id="myBtn" title="Go to top">Top</button>
+    <!-- akhir scroll to top button -->
+
+    <!-- container -->
     <div class="container">
-  <a class="navbar-brand" href="#">Wifi Agency <span><img src="img/icon4.png" width="30" height="30" alt=""></span></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav ml-auto">
-      <a class="nav-item nav-link" href="#about">About</a>
-      <a class="nav-item nav-link" href="#gallery">Gallery</a>
-      <a class="nav-item nav-link" href="#testimonial">Testimonial</a>
-      <a class="nav-item nav-link" href="#contact">Contact</a>
-      <a class="btn btn-primary tombol tombol-nav" href="#exampleModal" role="button">Github</a>
-    </div>
-  </div>
-</div>
-</nav>
-<!-- akhir navbar -->
+      <!-- banner -->
+      <div
+        class="row justify-content-center banner-kiri"
+        style="overflow-x: hidden;"
+      >
+        <div
+          class="col-lg text-banner"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <h2 class="slogan1">
+            <span>Welcome</span> to <span>Wifi Agency</span>
+          </h2>
+          <p class="slogan2">
+            Lorem <span>ipsum</span> dolor sit amet consectetur adipisicing
+            elit. Neque dignissimos consequuntur obcaecati, necessitatibus
+            <span>laboriosam</span> nostrum maiores mollitia
+            <span>veniam</span> cumque voluptate blanditiis eos, magni, fugiat
+            ut distinctio autem et tempore sit.
+          </p>
 
-<!-- Scroll to top Button -->
-<button id="myBtn" title="Go to top">Top</button>
-<!-- akhir scroll to top button -->
-
-<!-- container -->
-<div class="container">
-    <!-- banner -->
-    <div class="row justify-content-center banner-kiri" style="overflow-x: hidden;">
-        <div class="col-lg text-banner" data-aos="fade-right" data-aos-duration="1000">
-            <h2 class="slogan1"><span>Welcome</span> to <span>Wifi Agency</span></h2>
-            <p class="slogan2">Lorem <span>ipsum</span> dolor sit amet consectetur adipisicing elit. Neque dignissimos consequuntur obcaecati, necessitatibus <span>laboriosam</span> nostrum maiores mollitia <span>veniam</span> cumque voluptate blanditiis eos, magni, fugiat ut distinctio autem et tempore sit.</p>
-
-            <button class="btn btn-primary join-us tombol" data-toggle="modal" data-target="#exampleModal">Join Us Free</button>
+          <button
+            class="btn btn-primary join-us tombol"
+            data-toggle="modal"
+            data-target="#exampleModal"
+          >
+            Join Us Free
+          </button>
         </div>
-        <div class="col-lg banner banner-kanan" data-aos="fade-left" data-aos-duration="1000">
-        <img class="img-fluid" src="img/banner.jpg" alt="">
+        <div
+          class="col-lg banner banner-kanan"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <img loading="lazy" class="img-fluid" src="img/banner.jpg" alt="" />
         </div>
-    </div>
-    <!-- akhir banner -->
+      </div>
+      <!-- akhir banner -->
 
-    <!-- about -->
-    <div class="row justify-content-center" id="about" style="overflow-x: hidden;">
-        <div class="col d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
-            <h1 class="about-title">About Wifi Agency</h1>
+      <!-- about -->
+      <div
+        class="row justify-content-center"
+        id="about"
+        style="overflow-x: hidden;"
+      >
+        <div
+          class="col d-flex justify-content-center"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <h1 class="about-title">About Wifi Agency</h1>
         </div>
-    </div>
+      </div>
 
-    <div class="row justify-content-center logo" style="overflow-x: hidden;">
-        <div class="col d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000">
-            <img class="img-fluid" src="img/logo.jpg">
+      <div class="row justify-content-center logo" style="overflow-x: hidden;">
+        <div
+          class="col d-flex justify-content-center"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <img loading="lazy" class="img-fluid" src="img/logo.jpg" />
         </div>
-    </div>
+      </div>
 
-    <!-- detail1 -->
-    <div class="row detail1 justify-content-center" style="overflow-x: hidden;">
+      <!-- detail1 -->
+      <div
+        class="row detail1 justify-content-center"
+        style="overflow-x: hidden;"
+      >
         <div class="col-lg" data-aos="fade-right" data-aos-duration="1000">
-            <h3>Easy to Use</h3>
-            <small>Lorem ipsum dolor sit amet.</small>
-            <br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam similique, maxime, cum laborum hic, ut dignissimos facilis rerum id aliquid unde nulla enim fuga? Sed quae ipsa officiis consectetur itaque, libero ut officia incidunt nesciunt consequatur cumque distinctio dolorem fugit voluptates nulla voluptatibus temporibus vitae. Itaque facilis suscipit accusantium neque?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam similique, maxime, cum laborum hic, ut dignissimos facilis rerum id aliquid unde nulla enim fuga? Sed quae ipsa officiis consectetur itaque.
-            </p>
+          <h3>Easy to Use</h3>
+          <small>Lorem ipsum dolor sit amet.</small>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            similique, maxime, cum laborum hic, ut dignissimos facilis rerum id
+            aliquid unde nulla enim fuga? Sed quae ipsa officiis consectetur
+            itaque, libero ut officia incidunt nesciunt consequatur cumque
+            distinctio dolorem fugit voluptates nulla voluptatibus temporibus
+            vitae. Itaque facilis suscipit accusantium neque? Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit. Ipsam similique, maxime, cum
+            laborum hic, ut dignissimos facilis rerum id aliquid unde nulla enim
+            fuga? Sed quae ipsa officiis consectetur itaque.
+          </p>
         </div>
         <div class="col-lg" data-aos="fade-left" data-aos-duration="1000">
-            <img class="img-fluid" src="img/about1.jpg" alt="">
+          <img loading="lazy" class="img-fluid" src="img/about1.jpg" alt="" />
         </div>
-    </div>
-    <!-- akhir detail1 -->
-    
-    <!-- detail2 -->
-    <div class="row detail2 justify-content-center" style="overflow-x: hidden;">
+      </div>
+      <!-- akhir detail1 -->
+
+      <!-- detail2 -->
+      <div
+        class="row detail2 justify-content-center"
+        style="overflow-x: hidden;"
+      >
         <div class="col-lg" data-aos="fade-right" data-aos-duration="1000">
-            <img class="img-fluid" src="img/about2.jpg" alt="">
+          <img loading="lazy" class="img-fluid" src="img/about2.jpg" alt="" />
         </div>
 
         <div class="col-lg" data-aos="fade-left" data-aos-duration="1000">
-            <h3>Problem Solver</h3>
-            <small>Lorem ipsum dolor sit amet.</small>
-            <br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam similique, maxime, cum laborum hic, ut dignissimos facilis rerum id aliquid unde nulla enim fuga? Sed quae ipsa officiis consectetur itaque, libero ut officia incidunt nesciunt consequatur cumque distinctio dolorem fugit voluptates nulla voluptatibus temporibus vitae. Itaque facilis suscipit accusantium neque?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam similique, maxime, cum laborum hic, ut dignissimos facilis rerum id aliquid unde nulla enim fuga? Sed quae ipsa officiis consectetur itaque.
-            </p>
+          <h3>Problem Solver</h3>
+          <small>Lorem ipsum dolor sit amet.</small>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            similique, maxime, cum laborum hic, ut dignissimos facilis rerum id
+            aliquid unde nulla enim fuga? Sed quae ipsa officiis consectetur
+            itaque, libero ut officia incidunt nesciunt consequatur cumque
+            distinctio dolorem fugit voluptates nulla voluptatibus temporibus
+            vitae. Itaque facilis suscipit accusantium neque? Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit. Ipsam similique, maxime, cum
+            laborum hic, ut dignissimos facilis rerum id aliquid unde nulla enim
+            fuga? Sed quae ipsa officiis consectetur itaque.
+          </p>
         </div>
-    </div>
-    <!-- akhir detail2 -->
+      </div>
+      <!-- akhir detail2 -->
 
-    <!-- detail3 -->
-    <div class="row detail3 justify-content-center" style="overflow-x: hidden;">
+      <!-- detail3 -->
+      <div
+        class="row detail3 justify-content-center"
+        style="overflow-x: hidden;"
+      >
         <div class="col-lg" data-aos="fade-right" data-aos-duration="1000">
-            <h3>Enjoy your Day</h3>
-            <small>Lorem ipsum dolor sit amet.</small>
-            <br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam similique, maxime, cum laborum hic, ut dignissimos facilis rerum id aliquid unde nulla enim fuga? Sed quae ipsa officiis consectetur itaque, libero ut officia incidunt nesciunt consequatur cumque distinctio dolorem fugit voluptates nulla voluptatibus temporibus vitae. Itaque facilis suscipit accusantium neque?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam similique, maxime, cum laborum hic, ut dignissimos facilis rerum id aliquid unde nulla enim fuga? Sed quae ipsa officiis consectetur itaque.
-            </p>
+          <h3>Enjoy your Day</h3>
+          <small>Lorem ipsum dolor sit amet.</small>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+            similique, maxime, cum laborum hic, ut dignissimos facilis rerum id
+            aliquid unde nulla enim fuga? Sed quae ipsa officiis consectetur
+            itaque, libero ut officia incidunt nesciunt consequatur cumque
+            distinctio dolorem fugit voluptates nulla voluptatibus temporibus
+            vitae. Itaque facilis suscipit accusantium neque? Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit. Ipsam similique, maxime, cum
+            laborum hic, ut dignissimos facilis rerum id aliquid unde nulla enim
+            fuga? Sed quae ipsa officiis consectetur itaque.
+          </p>
         </div>
         <div class="col-lg" data-aos="fade-left" data-aos-duration="1000">
-            <img class="img-fluid" src="img/about3b.jpg" alt="">
+          <img loading="lazy" class="img-fluid" src="img/about3b.jpg" alt="" />
         </div>
-    </div>
-    <!-- akhir detail3 -->
+      </div>
+      <!-- akhir detail3 -->
 
-    <!-- akhir about -->
+      <!-- akhir about -->
 
-    <!-- Gallery -->
-    <div class="row gallery justify-content-center" id="gallery" style="overflow-x: hidden;">
-        <div class="col d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
-            <h1 class="gallery-title">Our Collection</h1>
+      <!-- Gallery -->
+      <div
+        class="row gallery justify-content-center"
+        id="gallery"
+        style="overflow-x: hidden;"
+      >
+        <div
+          class="col d-flex justify-content-center"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <h1 class="gallery-title">Our Collection</h1>
         </div>
-    </div>
+      </div>
 
-    <!-- picture -->
-    <div class="row justify-content-center">
+      <!-- picture -->
+      <div class="row justify-content-center">
         <div class="col-lg-4" data-aos="flip-left" data-aos-duration="1000">
-            <figure class="figure">
-                <img src="img/gallery1.jpg" class="figure-img img-fluid rounded" alt="">
-                
-              </figure>
+          <figure class="figure">
+            <img
+              loading="lazy"
+              src="img/gallery1.jpg"
+              class="figure-img img-fluid rounded"
+              alt=""
+            />
+          </figure>
         </div>
         <div class="col-lg-4" data-aos="flip-left" data-aos-duration="1000">
-            <figure class="figure">
-                <img src="img/gallery2.jpg" class="figure-img img-fluid rounded" alt="">
-                
-              </figure>
+          <figure class="figure">
+            <img
+              loading="lazy"
+              src="img/gallery2.jpg"
+              class="figure-img img-fluid rounded"
+              alt=""
+            />
+          </figure>
         </div>
         <div class="col-lg-4" data-aos="flip-left" data-aos-duration="1000">
-            <figure class="figure">
-                <img src="img/gallery3.jpg" class="figure-img img-fluid rounded" alt="">
-                
-              </figure>
+          <figure class="figure">
+            <img
+              loading="lazy"
+              src="img/gallery3.jpg"
+              class="figure-img img-fluid rounded"
+              alt=""
+            />
+          </figure>
         </div>
+      </div>
 
-    </div>
-
-
-    <div class="row justify-content-center">
+      <div class="row justify-content-center">
         <div class="col-lg-4" data-aos="flip-right" data-aos-duration="1000">
-            <figure class="figure">
-                <img src="img/gallery4.jpg" class="figure-img img-fluid rounded" alt="">
-                
-              </figure>
+          <figure class="figure">
+            <img
+              loading="lazy"
+              src="img/gallery4.jpg"
+              class="figure-img img-fluid rounded"
+              alt=""
+            />
+          </figure>
         </div>
         <div class="col-lg-4" data-aos="flip-right" data-aos-duration="1000">
-            <figure class="figure">
-                <img src="img/gallery7.jpg" class="figure-img img-fluid rounded" alt="">
-                
-              </figure>
+          <figure class="figure">
+            <img
+              loading="lazy"
+              src="img/gallery7.jpg"
+              class="figure-img img-fluid rounded"
+              alt=""
+            />
+          </figure>
         </div>
         <div class="col-lg-4" data-aos="flip-right" data-aos-duration="1000">
-            <figure class="figure">
-                <img src="img/gallery6.jpg" class="figure-img img-fluid rounded" alt="">
-                
-              </figure>
+          <figure class="figure">
+            <img
+              loading="lazy"
+              src="img/gallery6.jpg"
+              class="figure-img img-fluid rounded"
+              alt=""
+            />
+          </figure>
         </div>
+      </div>
+      <!-- akhir picture -->
+      <!-- akhir gallery -->
 
-    </div>
-    <!-- akhir picture -->
-    <!-- akhir gallery -->
-
-    <!-- Testimonial -->
-    <div class="row" id="testimonial" style="overflow-x: hidden;">
-      <div class="col-lg-8 col-center m-auto">
-        <h2 data-aos-duration="1000" data-aos="fade-right" class="testimonial-title">Testimonials</h2>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- Carousel indicators -->
-          <!-- <ol class="carousel-indicators">
+      <!-- Testimonial -->
+      <div class="row" id="testimonial" style="overflow-x: hidden;">
+        <div class="col-lg-8 col-center m-auto">
+          <h2
+            data-aos-duration="1000"
+            data-aos="fade-right"
+            class="testimonial-title"
+          >
+            Testimonials
+          </h2>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Carousel indicators -->
+            <!-- <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
           </ol>    -->
-          <!-- Wrapper for carousel items -->
-          <div class="carousel-inner">
-            <div class="item carousel-item active">
-              <div class="img-box"><img src="img/testi1.jpg" alt=""></div>
-              <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
-              <p class="overview"><b>Jhon Marteen</b>, Media Analyst</p>
+            <!-- Wrapper for carousel items -->
+            <div class="carousel-inner">
+              <div class="item carousel-item active">
+                <div class="img-box">
+                  <img loading="lazy" src="img/testi1.jpg" alt="" />
+                </div>
+                <p class="testimonial">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+                  eu sem tempor, varius quam at, luctus dui. Mauris magna metus,
+                  dapibus nec turpis vel, semper malesuada ante. Idac bibendum
+                  scelerisque non non purus. Suspendisse varius nibh non
+                  aliquet.
+                </p>
+                <p class="overview"><b>Jhon Marteen</b>, Media Analyst</p>
+              </div>
+              <div class="item carousel-item">
+                <div class="img-box">
+                  <img loading="lazy" src="img/testi2.jpg" alt="" />
+                </div>
+                <p class="testimonial">
+                  Vestibulum quis quam ut magna consequat faucibus. Pellentesque
+                  eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus.
+                  Pellentesque viverra sagittis quam at mattis. Suspendisse
+                  potenti. Aliquam sit amet gravida nibh, facilisis gravida
+                  odio.
+                </p>
+                <p class="overview"><b>Michelle</b>, Web Developer</p>
+              </div>
+              <div class="item carousel-item">
+                <div class="img-box">
+                  <img loading="lazy" src="img/testi3.jpg" alt="" />
+                </div>
+                <p class="testimonial">
+                  Phasellus vitae suscipit justo. Mauris pharetra feugiat ante
+                  id lacinia. Etiam faucibus mauris id tempor egestas. Duis
+                  luctus turpis at accumsan tincidunt. Phasellus risus risus,
+                  volutpat vel tellus ac, tincidunt fringilla massa. Etiam
+                  hendrerit dolor eget rutrum.
+                </p>
+                <p class="overview"><b>Veganzazy</b>, Seo Analyst</p>
+              </div>
             </div>
-            <div class="item carousel-item">
-              <div class="img-box"><img src="img/testi2.jpg" alt=""></div>
-              <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
-              <p class="overview"><b>Michelle</b>, Web Developer</p>
+            <!-- Carousel controls -->
+            <a
+              class="carousel-control left carousel-control-prev"
+              href="#myCarousel"
+              data-slide="prev"
+            >
+              <i class="fa fa-angle-left"></i>
+            </a>
+            <a
+              class="carousel-control right carousel-control-next"
+              href="#myCarousel"
+              data-slide="next"
+            >
+              <i class="fa fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- akhir testimonial -->
+
+      <!-- CS -->
+      <div
+        class="row justify-content-center"
+        id="contact"
+        style="overflow-x: hidden;"
+      >
+        <div
+          class="col d-flex justify-content-center"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <h1 class="cs-title">Contact Us Now!</h1>
+        </div>
+      </div>
+
+      <div class="row justify-content-center cs" style="overflow-x: hidden;">
+        <div
+          class="col d-flex justify-content-center"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <img
+            loading="lazy"
+            class="img-fluid rounded-circle"
+            src="img/cs.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="row justify-content-center" style="overflow-x: hidden;">
+        <div class="col-lg-3" data-aos="fade-right" data-aos-duration="1000">
+          <h2 class="company-title">Wifi Agency Group</h2>
+          <figure class="figure">
+            <img
+              loading="lazy"
+              src="img/company.jpg"
+              class="figure-img img-fluid rounded"
+            />
+          </figure>
+        </div>
+        <div
+          class="col-lg-7 forms"
+          data-aos="fade-left"
+          data-aos-duration="1000"
+        >
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter email"
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
             </div>
-            <div class="item carousel-item">
-              <div class="img-box"><img src="img/testi3.jpg" alt=""></div>
-              <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
-              <p class="overview"><b>Veganzazy</b>, Seo Analyst</p>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input
+                type="password"
+                class="form-control"
+                id="exampleInputPassword1"
+                placeholder="Password"
+              />
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Your Opinion</label>
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+            <div class="form-group form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Check me out</label
+              >
+            </div>
+            <button type="button" class="btn btn-primary submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <!-- akhir cs -->
+    </div>
+    <!-- modal forms -->
+    <div class="row justify-content-center modal-forms">
+      <div class="col">
+        <!-- Button trigger modal -->
+
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Member Registration forms
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <!-- body -->
+                <form class="formss">
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">First Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputEmail4"
+                        placeholder="John"
+                      />
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Last Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputPassword4"
+                        placeholder="Marteen"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Email</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="inputEmail4"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Password</label>
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="inputPassword4"
+                        placeholder="Password"
+                      />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress">Phone Number</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputAddress"
+                      placeholder="ex. +62 xxx xxx xxx"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="inputAddress">Address</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="inputAddress"
+                      placeholder="Jl. Soekarno - Hatta"
+                    />
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputCity">City</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputCity"
+                        placeholder="Central Jakarta"
+                      />
+                    </div>
+                    <div class="form-group col-md-4">
+                      <label for="inputState">Province</label>
+                      <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>DKI Jakarta</option>
+                        <option>East Java</option>
+                        <option>West Java</option>
+                        <option>Middle Java</option>
+                        <option>Madura</option>
+                        <option>West Sumatera</option>
+                        <option>East Sumatera</option>
+                        <option>Yogyakarta</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                      <label for="inputZip">Postcode</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputZip"
+                        placeholder="51371"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    class="btn btn-primary tombol tombol-join-forms"
+                  >
+                    Join Now
+                  </button>
+                </form>
+                <!-- akhir body -->
+              </div>
             </div>
           </div>
-          <!-- Carousel controls -->
-          <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
-            <i class="fa fa-angle-left"></i>
-          </a>
-          <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
-            <i class="fa fa-angle-right"></i>
-          </a>
         </div>
       </div>
     </div>
-    <!-- akhir testimonial -->
+    <!-- akhir modal forms -->
+    <!-- akhir container -->
 
-    <!-- CS -->
-    <div class="row justify-content-center" id="contact" style="overflow-x: hidden;">
-        <div class="col d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000">
-            <h1 class="cs-title">Contact Us Now!</h1>
-        </div>
-    </div>
-
-    <div class="row justify-content-center cs" style="overflow-x: hidden;">
-        <div class="col d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000">
-            <img class="img-fluid rounded-circle" src="img/cs.jpg" alt="">
-        </div>
-    </div>
-
-    <div class="row justify-content-center" style="overflow-x: hidden;">
-        
-        <div class="col-lg-3" data-aos="fade-right" data-aos-duration="1000">
-            <h2 class="company-title">Wifi Agency Group</h2>
-            <figure class="figure">
-                <img src="img/company.jpg" class="figure-img img-fluid rounded">
-              </figure>
-              
-        </div>
-        <div class="col-lg-7 forms" data-aos="fade-left" data-aos-duration="1000">
-            <form>
-                <div class="form-group">
-                  <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                </div>
-                <div class="form-group">
-                  <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Your Opinion</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>
-                <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
-                <button type="button" class="btn btn-primary submit">Submit</button>
-              </form>
-        </div>
-    </div>
-    <!-- akhir cs -->
-</div>
-<!-- modal forms -->
-<div class="row justify-content-center modal-forms">
-    <div class="col">
-        <!-- Button trigger modal -->
-  
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Member Registration forms</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <!-- body -->
-          <form class="formss">
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="inputEmail4">First Name</label>
-                  <input type="text" class="form-control" id="inputEmail4" placeholder="John">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="inputPassword4">Last Name</label>
-                  <input type="text" class="form-control" id="inputPassword4" placeholder="Marteen">
-                </div>
-              </div>
-
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputEmail4">Email</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="inputPassword4">Password</label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
-              </div>
-            </div>
-            <div class="form-group">
-                <label for="inputAddress">Phone Number</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="ex. +62 xxx xxx xxx">
-              </div>
-            <div class="form-group">
-              <label for="inputAddress">Address</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Jl. Soekarno - Hatta">
-            </div>
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label for="inputCity">City</label>
-                <input type="text" class="form-control" id="inputCity" placeholder="Central Jakarta">
-              </div>
-              <div class="form-group col-md-4">
-                <label for="inputState">Province</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Choose...</option>
-                  <option>DKI Jakarta</option>
-                  <option>East Java</option>
-                  <option>West Java</option>
-                  <option>Middle Java</option>
-                  <option>Madura</option>
-                  <option>West Sumatera</option>
-                  <option>East Sumatera</option>
-                  <option>Yogyakarta</option>
-
-                </select>
-              </div>
-              <div class="form-group col-md-2">
-                <label for="inputZip">Postcode</label>
-                <input type="text" class="form-control" id="inputZip" placeholder="51371">
-              </div>
-            </div>
-            <button type="button" class="btn btn-primary tombol tombol-join-forms">Join Now</button>
-          </form>
-          <!-- akhir body -->
+    <!-- footer -->
+    <footer class="text-white text-center pt-0">
+      <div class="container">
+        <div class="row pt-3">
+          <div class="col">
+            <p>Copyright 2020 @Muhammad Fikry Hasan Allright Reserved</p>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
-    </div>
-</div>
-<!-- akhir modal forms -->
-<!-- akhir container -->
-
-
-
-<!-- footer -->
-<footer class=" text-white text-center pt-0">
-    <div class="container">
-      <div class="row pt-3">
-        <div class="col">
-          <p>Copyright 2020 @Muhammad Fikry Hasan Allright Reserved</p>
-        </div>
-      </div>
-    </div>
-
-  </footer>
-<!-- akhir footer -->
+    </footer>
+    <!-- akhir footer -->
 
     <!-- Optional JavaScript -->
 
@@ -385,29 +659,39 @@
     <script src="script2.js"></script>
     <!-- Smooth Scrolling -->
     <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
           e.preventDefault();
-  
-          document.querySelector(this.getAttribute('href')).scrollIntoView({
-              behavior: 'smooth'
+
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
           });
+        });
       });
-  });
-</script>
+    </script>
 
-<!-- AOS -->
-<script src="aos.js"></script>
-<!-- AOS init -->
-<script>
-  AOS.init();
-</script>
-
-
+    <!-- AOS -->
+    <script src="aos.js"></script>
+    <!-- AOS init -->
+    <script>
+      AOS.init();
+    </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
